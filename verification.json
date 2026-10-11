@@ -1,0 +1,15 @@
+{
+  "passed": 9,
+  "checks": [
+    "Empty tasks are rejected",
+    "Add, trim, count and safe text rendering",
+    "Completion updates statistics",
+    "Saved tasks and completion restore in a new DOM session",
+    "Delete updates list and statistics",
+    "Timer starts, counts down and pauses",
+    "Reset returns timer and controls to idle",
+    "Timer finishes and supports starting again",
+    "No external script or stylesheet dependencies"
+  ],
+  "scope": "DOM behavior tests in jsdom with a fake timer; not a rendered browser or visual test"
+}
